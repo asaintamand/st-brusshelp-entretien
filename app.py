@@ -99,7 +99,7 @@ with col1:
     fig_sun_statut = px.sunburst(
         df_year_total.dropna(),
         values="value",
-        names="EL_name_general",
+        path="EL_name_general",
         # hover_name="EL_name_sub",
         # hover_data="value",
         # parents="EL_name_general",
