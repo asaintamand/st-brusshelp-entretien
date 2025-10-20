@@ -83,7 +83,6 @@ year_selection_v1 = st.selectbox(
 
 df_year_total = df_total[df_total["year"] == year_selection_v1]
 df_year_total.dropna(inplace=True)
-df_year_total = df_year_total.sort_values("EL_name_general")
 
 df_year_wo_total = df_wo_total[df_wo_total["year"] == year_selection_v1]
 df_year_wo_total = df_year_wo_total.groupby("public", as_index=False).sum()
@@ -92,7 +91,6 @@ col1, col2 = st.columns(2)
 
 # --- Plot 1 : distribution by ETHOS ---
 with col1:
-    st.write(df_year_total.dropna())
     st.subheader("Par catégorie ETHOS Light (tout public confondu)")
     fig_sun_statut = px.pie(
         df_year_total.dropna(),
@@ -102,6 +100,7 @@ with col1:
         # hover_data="value",
         color="EL_name_general",
         # color_discrete_sequence=px.colors.qualitative.Set2,
+        category_orders=df_year_total.dropna().EL_name_general.unique(),
     )
     st.plotly_chart(fig_sun_statut, use_container_width=True)
 
