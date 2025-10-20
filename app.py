@@ -99,7 +99,7 @@ with col1:
     fig_sun_statut = px.sunburst(
         df_year_total.dropna(),
         values="value",
-        path="EL_name_general",
+        path=["EL_name_general"],
         # hover_name="EL_name_sub",
         # hover_data="value",
         # parents="EL_name_general",
@@ -110,55 +110,55 @@ with col1:
 
 # --- Plot 2 : distribution by public ---
 with col2:
-    st.subheader("Par genre et âge (toute catégorie ETHOS Light confondue)")
-    fig_sun_genre = px.sunburst(
-        df_year_wo_total.dropna(),
-        values="value",
-        names="public",
-        color="public",
-        color_discrete_sequence=px.colors.qualitative.Pastel,
-    )
-    st.plotly_chart(fig_sun_genre, use_container_width=True)
+    # st.subheader("Par genre et âge (toute catégorie ETHOS Light confondue)")
+    # fig_sun_genre = px.sunburst(
+    #     df_year_wo_total.dropna(),
+    #     values="value",
+    #     names="public",
+    #     color="public",
+    #     color_discrete_sequence=px.colors.qualitative.Pastel,
+    # )
+    # st.plotly_chart(fig_sun_genre, use_container_width=True)
 
 st.divider()
 
 # %% Distribution plots by ETHOS and public
-st.header("Répartition par public pour une catégorie ETHOS Light et une année donnés")
+# st.header("Répartition par public pour une catégorie ETHOS Light et une année donnés")
 
-years_v2 = sorted(df["year"].unique())
+# years_v2 = sorted(df["year"].unique())
 
-ethos_classes_name = sorted(df["EL_name_general"].unique())
-ethos_selection = st.selectbox(
-    "Sélectionner une catégorie ETHOS Light :", ethos_classes_name, index=0
-)
-year_selection_v2 = st.selectbox(
-    "Choisir une année :", years_v2, index=len(years_v2) - 1
-)
+# ethos_classes_name = sorted(df["EL_name_general"].unique())
+# ethos_selection = st.selectbox(
+#     "Sélectionner une catégorie ETHOS Light :", ethos_classes_name, index=0
+# )
+# year_selection_v2 = st.selectbox(
+#     "Choisir une année :", years_v2, index=len(years_v2) - 1
+# )
 
-df_ethos_year = (
-    df_wo_total[df_wo_total["year"] == year_selection_v2][
-        df_wo_total["EL_name_general"] == ethos_classes_name[2]
-    ]
-    .groupby("public")
-    .sum()
-    .reset_index()
-    .drop(["year", "EL_no"], axis=1)
-)
+# df_ethos_year = (
+#     df_wo_total[df_wo_total["year"] == year_selection_v2][
+#         df_wo_total["EL_name_general"] == ethos_classes_name[2]
+#     ]
+#     .groupby("public")
+#     .sum()
+#     .reset_index()
+#     .drop(["year", "EL_no"], axis=1)
+# )
 
-# Plot combined
-fig_sun_combine = px.sunburst(
-    df_ethos_year.dropna(),
-    values="value",
-    color="public",
-    names="public",
-    hover_data="value",
-    color_discrete_sequence=px.colors.qualitative.Vivid,
-    title=f"Répartition par public pour la catégorie ETHOS Light {ethos_selection} en {year_selection_v2}",
-)
+# # Plot combined
+# fig_sun_combine = px.sunburst(
+#     df_ethos_year.dropna(),
+#     values="value",
+#     color="public",
+#     names="public",
+#     hover_data="value",
+#     color_discrete_sequence=px.colors.qualitative.Vivid,
+#     title=f"Répartition par public pour la catégorie ETHOS Light {ethos_selection} en {year_selection_v2}",
+# )
 
-fig_sun_combine.update_layout(margin=dict(l=0, r=0, t=50, b=0))
+# fig_sun_combine.update_layout(margin=dict(l=0, r=0, t=50, b=0))
 
-# Center plot
-col_left, col_center, col_right = st.columns([1, 2, 1])
-with col_center:
-    st.plotly_chart(fig_sun_combine, use_container_width=True)
+# # Center plot
+# col_left, col_center, col_right = st.columns([1, 2, 1])
+# with col_center:
+#     st.plotly_chart(fig_sun_combine, use_container_width=True)
