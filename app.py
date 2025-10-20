@@ -20,7 +20,9 @@ st.set_page_config(
     page_title="Données de recensement du sans-abrisme à Bruxelles", layout="wide"
 )
 
-st.title("Tableau de bord interactif")
+st.title(
+    "Tableau de bord interactif des données de recensement du sans-abrisme à Bruxelles"
+)
 
 # %% Temporal series plot
 st.header("Évolution du nombre de personnes par statut")
@@ -54,7 +56,7 @@ fig_area = px.area(
     y="value",
     color="EL_name_general",
     line_group="EL_name_general",
-    title="Évolution par année et catégorie ETHOS Light",
+    title=f"Évolution par année et catégorie ETHOS Light ({public_selection})",
     markers=True,
 )
 
@@ -94,9 +96,9 @@ with col1:
     fig_sun_statut = px.sunburst(
         df_year_total,
         values="value",
-        hover_name="EL_name_sub",
-        hover_data="value",
-        parents="EL_name_general",
+        # hover_name="EL_name_sub",
+        # hover_data="value",
+        # parents="EL_name_general",
         color="EL_name_general",
         color_discrete_sequence=px.colors.qualitative.Set2,
     )
