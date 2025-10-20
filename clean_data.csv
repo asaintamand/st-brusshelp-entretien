@@ -1,0 +1,703 @@
+year,EL_no,EL_name_general,EL_name_sub,public,value
+2008,1,1 : Espace public,Espace public,Femmes,48
+2008,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Femmes,
+2008,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Femmes,72
+2008,3,3 : Foyer d'hébergement,Maisons d'accueil,Femmes,
+2008,3,3 : Foyer d'hébergement,Logements de transit,Femmes,
+2008,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Femmes,221
+2008,4,4 : En institution,Institutions médicales,Femmes,
+2008,4,4 : En institution,Asile,Femmes,
+2008,5,5 : Logement non-conventionnel,SHNA,Femmes,11
+2008,5,5 : Logement non-conventionnel,Occupations négociées,Femmes,7
+2008,5,5 : Logement non-conventionnel,Squats,Femmes,36
+2008,6,6 : Chez des tiers,Chez des tiers,Femmes,
+2008,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Femmes,329
+2008,1,1 : Espace public,Espace public,Hommes,13
+2008,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Hommes,
+2008,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Hommes,209
+2008,3,3 : Foyer d'hébergement,Maisons d'accueil,Hommes,
+2008,3,3 : Foyer d'hébergement,Logements de transit,Hommes,
+2008,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Hommes,381
+2008,4,4 : En institution,Institutions médicales,Hommes,
+2008,4,4 : En institution,Asile,Hommes,
+2008,5,5 : Logement non-conventionnel,SHNA,Hommes,40
+2008,5,5 : Logement non-conventionnel,Occupations négociées,Hommes,46
+2008,5,5 : Logement non-conventionnel,Squats,Hommes,193
+2008,6,6 : Chez des tiers,Chez des tiers,Hommes,
+2008,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Hommes,783
+2008,1,1 : Espace public,Espace public,X,
+2008,2,2 : Dispositifs d'urgence,Hébergement d'urgence,X,
+2008,2,2 : Dispositifs d'urgence,Plateforme citoyenne,X,
+2008,3,3 : Foyer d'hébergement,Maisons d'accueil,X,
+2008,3,3 : Foyer d'hébergement,Logements de transit,X,
+2008,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,X,
+2008,4,4 : En institution,Institutions médicales,X,
+2008,4,4 : En institution,Asile,X,
+2008,5,5 : Logement non-conventionnel,SHNA,X,
+2008,5,5 : Logement non-conventionnel,Occupations négociées,X,
+2008,5,5 : Logement non-conventionnel,Squats,X,
+2008,6,6 : Chez des tiers,Chez des tiers,X,
+2008,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,X,
+2008,1,1 : Espace public,Espace public,Indéterminé,160
+2008,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Indéterminé,
+2008,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Indéterminé,207
+2008,3,3 : Foyer d'hébergement,Maisons d'accueil,Indéterminé,
+2008,3,3 : Foyer d'hébergement,Logements de transit,Indéterminé,
+2008,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Indéterminé,0
+2008,4,4 : En institution,Institutions médicales,Indéterminé,
+2008,4,4 : En institution,Asile,Indéterminé,
+2008,5,5 : Logement non-conventionnel,SHNA,Indéterminé,160
+2008,5,5 : Logement non-conventionnel,Occupations négociées,Indéterminé,7
+2008,5,5 : Logement non-conventionnel,Squats,Indéterminé,207
+2008,6,6 : Chez des tiers,Chez des tiers,Indéterminé,
+2008,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Indéterminé,414
+2008,1,1 : Espace public,Espace public,Mineurs,13
+2008,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Mineurs,
+2008,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Mineurs,15
+2008,3,3 : Foyer d'hébergement,Maisons d'accueil,Mineurs,
+2008,3,3 : Foyer d'hébergement,Logements de transit,Mineurs,
+2008,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Mineurs,178
+2008,4,4 : En institution,Institutions médicales,Mineurs,
+2008,4,4 : En institution,Asile,Mineurs,
+2008,5,5 : Logement non-conventionnel,SHNA,Mineurs,5
+2008,5,5 : Logement non-conventionnel,Occupations négociées,Mineurs,0
+2008,5,5 : Logement non-conventionnel,Squats,Mineurs,5
+2008,6,6 : Chez des tiers,Chez des tiers,Mineurs,
+2008,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Mineurs,198
+2008,1,1 : Espace public,Espace public,Total,234
+2008,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Total,
+2008,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Total,503
+2008,3,3 : Foyer d'hébergement,Maisons d'accueil,Total,
+2008,3,3 : Foyer d'hébergement,Logements de transit,Total,
+2008,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Total,780
+2008,4,4 : En institution,Institutions médicales,Total,
+2008,4,4 : En institution,Asile,Total,
+2008,5,5 : Logement non-conventionnel,SHNA,Total,216
+2008,5,5 : Logement non-conventionnel,Occupations négociées,Total,60
+2008,5,5 : Logement non-conventionnel,Squats,Total,441
+2008,6,6 : Chez des tiers,Chez des tiers,Total,
+2008,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Total,1724
+2010,1,1 : Espace public,Espace public,Femmes,101
+2010,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Femmes,
+2010,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Femmes,137
+2010,3,3 : Foyer d'hébergement,Maisons d'accueil,Femmes,38
+2010,3,3 : Foyer d'hébergement,Logements de transit,Femmes,
+2010,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Femmes,213
+2010,4,4 : En institution,Institutions médicales,Femmes,
+2010,4,4 : En institution,Asile,Femmes,
+2010,5,5 : Logement non-conventionnel,SHNA,Femmes,64
+2010,5,5 : Logement non-conventionnel,Occupations négociées,Femmes,0
+2010,5,5 : Logement non-conventionnel,Squats,Femmes,95
+2010,6,6 : Chez des tiers,Chez des tiers,Femmes,
+2010,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Femmes,483
+2010,1,1 : Espace public,Espace public,Hommes,120
+2010,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Hommes,
+2010,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Hommes,360
+2010,3,3 : Foyer d'hébergement,Maisons d'accueil,Hommes,78
+2010,3,3 : Foyer d'hébergement,Logements de transit,Hommes,
+2010,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Hommes,368
+2010,4,4 : En institution,Institutions médicales,Hommes,
+2010,4,4 : En institution,Asile,Hommes,
+2010,5,5 : Logement non-conventionnel,SHNA,Hommes,117
+2010,5,5 : Logement non-conventionnel,Occupations négociées,Hommes,0
+2010,5,5 : Logement non-conventionnel,Squats,Hommes,270
+2010,6,6 : Chez des tiers,Chez des tiers,Hommes,
+2010,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Hommes,1076
+2010,1,1 : Espace public,Espace public,X,
+2010,2,2 : Dispositifs d'urgence,Hébergement d'urgence,X,
+2010,2,2 : Dispositifs d'urgence,Plateforme citoyenne,X,
+2010,3,3 : Foyer d'hébergement,Maisons d'accueil,X,
+2010,3,3 : Foyer d'hébergement,Logements de transit,X,
+2010,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,X,
+2010,4,4 : En institution,Institutions médicales,X,
+2010,4,4 : En institution,Asile,X,
+2010,5,5 : Logement non-conventionnel,SHNA,X,
+2010,5,5 : Logement non-conventionnel,Occupations négociées,X,
+2010,5,5 : Logement non-conventionnel,Squats,X,
+2010,6,6 : Chez des tiers,Chez des tiers,X,
+2010,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,X,
+2010,1,1 : Espace public,Espace public,Indéterminé,0
+2010,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Indéterminé,
+2010,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Indéterminé,33
+2010,3,3 : Foyer d'hébergement,Maisons d'accueil,Indéterminé,0
+2010,3,3 : Foyer d'hébergement,Logements de transit,Indéterminé,
+2010,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Indéterminé,0
+2010,4,4 : En institution,Institutions médicales,Indéterminé,
+2010,4,4 : En institution,Asile,Indéterminé,
+2010,5,5 : Logement non-conventionnel,SHNA,Indéterminé,0
+2010,5,5 : Logement non-conventionnel,Occupations négociées,Indéterminé,100
+2010,5,5 : Logement non-conventionnel,Squats,Indéterminé,100
+2010,6,6 : Chez des tiers,Chez des tiers,Indéterminé,
+2010,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Indéterminé,133
+2010,1,1 : Espace public,Espace public,Mineurs,61
+2010,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Mineurs,
+2010,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Mineurs,81
+2010,3,3 : Foyer d'hébergement,Maisons d'accueil,Mineurs,48
+2010,3,3 : Foyer d'hébergement,Logements de transit,Mineurs,
+2010,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Mineurs,214
+2010,4,4 : En institution,Institutions médicales,Mineurs,
+2010,4,4 : En institution,Asile,Mineurs,
+2010,5,5 : Logement non-conventionnel,SHNA,Mineurs,94
+2010,5,5 : Logement non-conventionnel,Occupations négociées,Mineurs,0
+2010,5,5 : Logement non-conventionnel,Squats,Mineurs,99
+2010,6,6 : Chez des tiers,Chez des tiers,Mineurs,
+2010,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Mineurs,442
+2010,1,1 : Espace public,Espace public,Total,282
+2010,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Total,
+2010,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Total,611
+2010,3,3 : Foyer d'hébergement,Maisons d'accueil,Total,164
+2010,3,3 : Foyer d'hébergement,Logements de transit,Total,
+2010,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Total,795
+2010,4,4 : En institution,Institutions médicales,Total,
+2010,4,4 : En institution,Asile,Total,
+2010,5,5 : Logement non-conventionnel,SHNA,Total,275
+2010,5,5 : Logement non-conventionnel,Occupations négociées,Total,100
+2010,5,5 : Logement non-conventionnel,Squats,Total,564
+2010,6,6 : Chez des tiers,Chez des tiers,Total,
+2010,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Total,2134
+2014,1,1 : Espace public,Espace public,Femmes,139
+2014,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Femmes,
+2014,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Femmes,179
+2014,3,3 : Foyer d'hébergement,Maisons d'accueil,Femmes,139
+2014,3,3 : Foyer d'hébergement,Logements de transit,Femmes,
+2014,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Femmes,374
+2014,4,4 : En institution,Institutions médicales,Femmes,
+2014,4,4 : En institution,Asile,Femmes,5
+2014,5,5 : Logement non-conventionnel,SHNA,Femmes,51
+2014,5,5 : Logement non-conventionnel,Occupations négociées,Femmes,55
+2014,5,5 : Logement non-conventionnel,Squats,Femmes,184
+2014,6,6 : Chez des tiers,Chez des tiers,Femmes,
+2014,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Femmes,742
+2014,1,1 : Espace public,Espace public,Hommes,119
+2014,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Hommes,
+2014,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Hommes,440
+2014,3,3 : Foyer d'hébergement,Maisons d'accueil,Hommes,156
+2014,3,3 : Foyer d'hébergement,Logements de transit,Hommes,
+2014,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Hommes,537
+2014,4,4 : En institution,Institutions médicales,Hommes,
+2014,4,4 : En institution,Asile,Hommes,31
+2014,5,5 : Logement non-conventionnel,SHNA,Hommes,75
+2014,5,5 : Logement non-conventionnel,Occupations négociées,Hommes,273
+2014,5,5 : Logement non-conventionnel,Squats,Hommes,602
+2014,6,6 : Chez des tiers,Chez des tiers,Hommes,
+2014,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Hommes,1610
+2014,1,1 : Espace public,Espace public,X,
+2014,2,2 : Dispositifs d'urgence,Hébergement d'urgence,X,
+2014,2,2 : Dispositifs d'urgence,Plateforme citoyenne,X,
+2014,3,3 : Foyer d'hébergement,Maisons d'accueil,X,
+2014,3,3 : Foyer d'hébergement,Logements de transit,X,
+2014,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,X,
+2014,4,4 : En institution,Institutions médicales,X,
+2014,4,4 : En institution,Asile,X,
+2014,5,5 : Logement non-conventionnel,SHNA,X,
+2014,5,5 : Logement non-conventionnel,Occupations négociées,X,
+2014,5,5 : Logement non-conventionnel,Squats,X,
+2014,6,6 : Chez des tiers,Chez des tiers,X,
+2014,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,X,
+2014,1,1 : Espace public,Espace public,Indéterminé,0
+2014,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Indéterminé,
+2014,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Indéterminé,46
+2014,3,3 : Foyer d'hébergement,Maisons d'accueil,Indéterminé,0
+2014,3,3 : Foyer d'hébergement,Logements de transit,Indéterminé,
+2014,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Indéterminé,0
+2014,4,4 : En institution,Institutions médicales,Indéterminé,
+2014,4,4 : En institution,Asile,Indéterminé,0
+2014,5,5 : Logement non-conventionnel,SHNA,Indéterminé,0
+2014,5,5 : Logement non-conventionnel,Occupations négociées,Indéterminé,15
+2014,5,5 : Logement non-conventionnel,Squats,Indéterminé,15
+2014,6,6 : Chez des tiers,Chez des tiers,Indéterminé,
+2014,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Indéterminé,61
+2014,1,1 : Espace public,Espace public,Mineurs,109
+2014,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Mineurs,
+2014,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Mineurs,114
+2014,3,3 : Foyer d'hébergement,Maisons d'accueil,Mineurs,209
+2014,3,3 : Foyer d'hébergement,Logements de transit,Mineurs,
+2014,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Mineurs,446
+2014,4,4 : En institution,Institutions médicales,Mineurs,
+2014,4,4 : En institution,Asile,Mineurs,0
+2014,5,5 : Logement non-conventionnel,SHNA,Mineurs,67
+2014,5,5 : Logement non-conventionnel,Occupations négociées,Mineurs,79
+2014,5,5 : Logement non-conventionnel,Squats,Mineurs,174
+2014,6,6 : Chez des tiers,Chez des tiers,Mineurs,
+2014,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Mineurs,734
+2014,1,1 : Espace public,Espace public,Total,367
+2014,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Total,
+2014,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Total,779
+2014,3,3 : Foyer d'hébergement,Maisons d'accueil,Total,504
+2014,3,3 : Foyer d'hébergement,Logements de transit,Total,
+2014,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Total,1357
+2014,4,4 : En institution,Institutions médicales,Total,
+2014,4,4 : En institution,Asile,Total,36
+2014,5,5 : Logement non-conventionnel,SHNA,Total,193
+2014,5,5 : Logement non-conventionnel,Occupations négociées,Total,422
+2014,5,5 : Logement non-conventionnel,Squats,Total,975
+2014,6,6 : Chez des tiers,Chez des tiers,Total,
+2014,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Total,3147
+2016,1,1 : Espace public,Espace public,Femmes,177
+2016,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Femmes,
+2016,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Femmes,227
+2016,3,3 : Foyer d'hébergement,Maisons d'accueil,Femmes,52
+2016,3,3 : Foyer d'hébergement,Logements de transit,Femmes,
+2016,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Femmes,281
+2016,4,4 : En institution,Institutions médicales,Femmes,
+2016,4,4 : En institution,Asile,Femmes,3
+2016,5,5 : Logement non-conventionnel,SHNA,Femmes,82
+2016,5,5 : Logement non-conventionnel,Occupations négociées,Femmes,112
+2016,5,5 : Logement non-conventionnel,Squats,Femmes,319
+2016,6,6 : Chez des tiers,Chez des tiers,Femmes,
+2016,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Femmes,830
+2016,1,1 : Espace public,Espace public,Hommes,148
+2016,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Hommes,
+2016,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Hommes,571
+2016,3,3 : Foyer d'hébergement,Maisons d'accueil,Hommes,46
+2016,3,3 : Foyer d'hébergement,Logements de transit,Hommes,
+2016,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Hommes,426
+2016,4,4 : En institution,Institutions médicales,Hommes,
+2016,4,4 : En institution,Asile,Hommes,9
+2016,5,5 : Logement non-conventionnel,SHNA,Hommes,126
+2016,5,5 : Logement non-conventionnel,Occupations négociées,Hommes,385
+2016,5,5 : Logement non-conventionnel,Squats,Hommes,826
+2016,6,6 : Chez des tiers,Chez des tiers,Hommes,
+2016,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Hommes,1832
+2016,1,1 : Espace public,Espace public,X,
+2016,2,2 : Dispositifs d'urgence,Hébergement d'urgence,X,
+2016,2,2 : Dispositifs d'urgence,Plateforme citoyenne,X,
+2016,3,3 : Foyer d'hébergement,Maisons d'accueil,X,
+2016,3,3 : Foyer d'hébergement,Logements de transit,X,
+2016,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,X,
+2016,4,4 : En institution,Institutions médicales,X,
+2016,4,4 : En institution,Asile,X,
+2016,5,5 : Logement non-conventionnel,SHNA,X,
+2016,5,5 : Logement non-conventionnel,Occupations négociées,X,
+2016,5,5 : Logement non-conventionnel,Squats,X,
+2016,6,6 : Chez des tiers,Chez des tiers,X,
+2016,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,X,
+2016,1,1 : Espace public,Espace public,Indéterminé,0
+2016,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Indéterminé,
+2016,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Indéterminé,210
+2016,3,3 : Foyer d'hébergement,Maisons d'accueil,Indéterminé,0
+2016,3,3 : Foyer d'hébergement,Logements de transit,Indéterminé,
+2016,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Indéterminé,0
+2016,4,4 : En institution,Institutions médicales,Indéterminé,
+2016,4,4 : En institution,Asile,Indéterminé,0
+2016,5,5 : Logement non-conventionnel,SHNA,Indéterminé,3
+2016,5,5 : Logement non-conventionnel,Occupations négociées,Indéterminé,0
+2016,5,5 : Logement non-conventionnel,Squats,Indéterminé,3
+2016,6,6 : Chez des tiers,Chez des tiers,Indéterminé,
+2016,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Indéterminé,213
+2016,1,1 : Espace public,Espace public,Mineurs,149
+2016,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Mineurs,
+2016,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Mineurs,173
+2016,3,3 : Foyer d'hébergement,Maisons d'accueil,Mineurs,72
+2016,3,3 : Foyer d'hébergement,Logements de transit,Mineurs,
+2016,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Mineurs,317
+2016,4,4 : En institution,Institutions médicales,Mineurs,
+2016,4,4 : En institution,Asile,Mineurs,0
+2016,5,5 : Logement non-conventionnel,SHNA,Mineurs,64
+2016,5,5 : Logement non-conventionnel,Occupations négociées,Mineurs,90
+2016,5,5 : Logement non-conventionnel,Squats,Mineurs,191
+2016,6,6 : Chez des tiers,Chez des tiers,Mineurs,
+2016,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Mineurs,681
+2016,1,1 : Espace public,Espace public,Total,474
+2016,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Total,
+2016,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Total,1181
+2016,3,3 : Foyer d'hébergement,Maisons d'accueil,Total,170
+2016,3,3 : Foyer d'hébergement,Logements de transit,Total,
+2016,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Total,1024
+2016,4,4 : En institution,Institutions médicales,Total,
+2016,4,4 : En institution,Asile,Total,12
+2016,5,5 : Logement non-conventionnel,SHNA,Total,275
+2016,5,5 : Logement non-conventionnel,Occupations négociées,Total,587
+2016,5,5 : Logement non-conventionnel,Squats,Total,1339
+2016,6,6 : Chez des tiers,Chez des tiers,Total,
+2016,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Total,3556
+2017,1,1 : Espace public,Espace public,Femmes,271
+2017,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Femmes,
+2017,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Femmes,328
+2017,3,3 : Foyer d'hébergement,Maisons d'accueil,Femmes,50
+2017,3,3 : Foyer d'hébergement,Logements de transit,Femmes,
+2017,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Femmes,286
+2017,4,4 : En institution,Institutions médicales,Femmes,
+2017,4,4 : En institution,Asile,Femmes,0
+2017,5,5 : Logement non-conventionnel,SHNA,Femmes,97
+2017,5,5 : Logement non-conventionnel,Occupations négociées,Femmes,84
+2017,5,5 : Logement non-conventionnel,Squats,Femmes,302
+2017,6,6 : Chez des tiers,Chez des tiers,Femmes,
+2017,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Femmes,916
+2017,1,1 : Espace public,Espace public,Hommes,943
+2017,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Hommes,
+2017,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Hommes,1273
+2017,3,3 : Foyer d'hébergement,Maisons d'accueil,Hommes,45
+2017,3,3 : Foyer d'hébergement,Logements de transit,Hommes,
+2017,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Hommes,420
+2017,4,4 : En institution,Institutions médicales,Hommes,
+2017,4,4 : En institution,Asile,Hommes,11
+2017,5,5 : Logement non-conventionnel,SHNA,Hommes,222
+2017,5,5 : Logement non-conventionnel,Occupations négociées,Hommes,260
+2017,5,5 : Logement non-conventionnel,Squats,Hommes,800
+2017,6,6 : Chez des tiers,Chez des tiers,Hommes,
+2017,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Hommes,2504
+2017,1,1 : Espace public,Espace public,X,
+2017,2,2 : Dispositifs d'urgence,Hébergement d'urgence,X,
+2017,2,2 : Dispositifs d'urgence,Plateforme citoyenne,X,
+2017,3,3 : Foyer d'hébergement,Maisons d'accueil,X,
+2017,3,3 : Foyer d'hébergement,Logements de transit,X,
+2017,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,X,
+2017,4,4 : En institution,Institutions médicales,X,
+2017,4,4 : En institution,Asile,X,
+2017,5,5 : Logement non-conventionnel,SHNA,X,
+2017,5,5 : Logement non-conventionnel,Occupations négociées,X,
+2017,5,5 : Logement non-conventionnel,Squats,X,
+2017,6,6 : Chez des tiers,Chez des tiers,X,
+2017,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,X,
+2017,1,1 : Espace public,Espace public,Indéterminé,0
+2017,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Indéterminé,
+2017,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Indéterminé,113
+2017,3,3 : Foyer d'hébergement,Maisons d'accueil,Indéterminé,0
+2017,3,3 : Foyer d'hébergement,Logements de transit,Indéterminé,
+2017,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Indéterminé,0
+2017,4,4 : En institution,Institutions médicales,Indéterminé,
+2017,4,4 : En institution,Asile,Indéterminé,0
+2017,5,5 : Logement non-conventionnel,SHNA,Indéterminé,3
+2017,5,5 : Logement non-conventionnel,Occupations négociées,Indéterminé,0
+2017,5,5 : Logement non-conventionnel,Squats,Indéterminé,3
+2017,6,6 : Chez des tiers,Chez des tiers,Indéterminé,
+2017,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Indéterminé,116
+2017,1,1 : Espace public,Espace public,Mineurs,238
+2017,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Mineurs,
+2017,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Mineurs,249
+2017,3,3 : Foyer d'hébergement,Maisons d'accueil,Mineurs,59
+2017,3,3 : Foyer d'hébergement,Logements de transit,Mineurs,
+2017,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Mineurs,312
+2017,4,4 : En institution,Institutions médicales,Mineurs,
+2017,4,4 : En institution,Asile,Mineurs,0
+2017,5,5 : Logement non-conventionnel,SHNA,Mineurs,73
+2017,5,5 : Logement non-conventionnel,Occupations négociées,Mineurs,41
+2017,5,5 : Logement non-conventionnel,Squats,Mineurs,151
+2017,6,6 : Chez des tiers,Chez des tiers,Mineurs,
+2017,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Mineurs,712
+2017,1,1 : Espace public,Espace public,Total,1452
+2017,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Total,
+2017,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Total,1963
+2017,3,3 : Foyer d'hébergement,Maisons d'accueil,Total,154
+2017,3,3 : Foyer d'hébergement,Logements de transit,Total,
+2017,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Total,1018
+2017,4,4 : En institution,Institutions médicales,Total,
+2017,4,4 : En institution,Asile,Total,11
+2017,5,5 : Logement non-conventionnel,SHNA,Total,395
+2017,5,5 : Logement non-conventionnel,Occupations négociées,Total,385
+2017,5,5 : Logement non-conventionnel,Squats,Total,1256
+2017,6,6 : Chez des tiers,Chez des tiers,Total,
+2017,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Total,4248
+2018,1,1 : Espace public,Espace public,Femmes,220
+2018,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Femmes,0
+2018,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Femmes,304
+2018,3,3 : Foyer d'hébergement,Maisons d'accueil,Femmes,33
+2018,3,3 : Foyer d'hébergement,Logements de transit,Femmes,
+2018,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Femmes,279
+2018,4,4 : En institution,Institutions médicales,Femmes,
+2018,4,4 : En institution,Asile,Femmes,8
+2018,5,5 : Logement non-conventionnel,SHNA,Femmes,108
+2018,5,5 : Logement non-conventionnel,Occupations négociées,Femmes,55
+2018,5,5 : Logement non-conventionnel,Squats,Femmes,352
+2018,6,6 : Chez des tiers,Chez des tiers,Femmes,
+2018,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Femmes,943
+2018,1,1 : Espace public,Espace public,Hommes,260
+2018,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Hommes,580
+2018,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Hommes,1344
+2018,3,3 : Foyer d'hébergement,Maisons d'accueil,Hommes,63
+2018,3,3 : Foyer d'hébergement,Logements de transit,Hommes,
+2018,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Hommes,444
+2018,4,4 : En institution,Institutions médicales,Hommes,
+2018,4,4 : En institution,Asile,Hommes,54
+2018,5,5 : Logement non-conventionnel,SHNA,Hommes,152
+2018,5,5 : Logement non-conventionnel,Occupations négociées,Hommes,160
+2018,5,5 : Logement non-conventionnel,Squats,Hommes,594
+2018,6,6 : Chez des tiers,Chez des tiers,Hommes,
+2018,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Hommes,2436
+2018,1,1 : Espace public,Espace public,X,
+2018,2,2 : Dispositifs d'urgence,Hébergement d'urgence,X,
+2018,2,2 : Dispositifs d'urgence,Plateforme citoyenne,X,
+2018,3,3 : Foyer d'hébergement,Maisons d'accueil,X,
+2018,3,3 : Foyer d'hébergement,Logements de transit,X,
+2018,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,X,
+2018,4,4 : En institution,Institutions médicales,X,
+2018,4,4 : En institution,Asile,X,
+2018,5,5 : Logement non-conventionnel,SHNA,X,
+2018,5,5 : Logement non-conventionnel,Occupations négociées,X,
+2018,5,5 : Logement non-conventionnel,Squats,X,
+2018,6,6 : Chez des tiers,Chez des tiers,X,
+2018,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,X,
+2018,1,1 : Espace public,Espace public,Indéterminé,0
+2018,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Indéterminé,0
+2018,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Indéterminé,151
+2018,3,3 : Foyer d'hébergement,Maisons d'accueil,Indéterminé,0
+2018,3,3 : Foyer d'hébergement,Logements de transit,Indéterminé,
+2018,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Indéterminé,0
+2018,4,4 : En institution,Institutions médicales,Indéterminé,
+2018,4,4 : En institution,Asile,Indéterminé,0
+2018,5,5 : Logement non-conventionnel,SHNA,Indéterminé,1
+2018,5,5 : Logement non-conventionnel,Occupations négociées,Indéterminé,10
+2018,5,5 : Logement non-conventionnel,Squats,Indéterminé,11
+2018,6,6 : Chez des tiers,Chez des tiers,Indéterminé,
+2018,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Indéterminé,162
+2018,1,1 : Espace public,Espace public,Mineurs,227
+2018,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Mineurs,18
+2018,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Mineurs,265
+2018,3,3 : Foyer d'hébergement,Maisons d'accueil,Mineurs,32
+2018,3,3 : Foyer d'hébergement,Logements de transit,Mineurs,
+2018,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Mineurs,267
+2018,4,4 : En institution,Institutions médicales,Mineurs,
+2018,4,4 : En institution,Asile,Mineurs,0
+2018,5,5 : Logement non-conventionnel,SHNA,Mineurs,72
+2018,5,5 : Logement non-conventionnel,Occupations négociées,Mineurs,11
+2018,5,5 : Logement non-conventionnel,Squats,Mineurs,87
+2018,6,6 : Chez des tiers,Chez des tiers,Mineurs,
+2018,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Mineurs,619
+2018,1,1 : Espace public,Espace public,Total,707
+2018,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Total,598
+2018,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Total,2064
+2018,3,3 : Foyer d'hébergement,Maisons d'accueil,Total,128
+2018,3,3 : Foyer d'hébergement,Logements de transit,Total,
+2018,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Total,990
+2018,4,4 : En institution,Institutions médicales,Total,
+2018,4,4 : En institution,Asile,Total,62
+2018,5,5 : Logement non-conventionnel,SHNA,Total,333
+2018,5,5 : Logement non-conventionnel,Occupations négociées,Total,236
+2018,5,5 : Logement non-conventionnel,Squats,Total,1044
+2018,6,6 : Chez des tiers,Chez des tiers,Total,
+2018,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Total,4160
+2020,1,1 : Espace public,Espace public,Femmes,475
+2020,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Femmes,42
+2020,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Femmes,568
+2020,3,3 : Foyer d'hébergement,Maisons d'accueil,Femmes,130
+2020,3,3 : Foyer d'hébergement,Logements de transit,Femmes,
+2020,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Femmes,326
+2020,4,4 : En institution,Institutions médicales,Femmes,
+2020,4,4 : En institution,Asile,Femmes,3
+2020,5,5 : Logement non-conventionnel,SHNA,Femmes,10
+2020,5,5 : Logement non-conventionnel,Occupations négociées,Femmes,78
+2020,5,5 : Logement non-conventionnel,Squats,Femmes,213
+2020,6,6 : Chez des tiers,Chez des tiers,Femmes,
+2020,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Femmes,1110
+2020,1,1 : Espace public,Espace public,Hommes,567
+2020,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Hommes,456
+2020,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Hommes,1557
+2020,3,3 : Foyer d'hébergement,Maisons d'accueil,Hommes,113
+2020,3,3 : Foyer d'hébergement,Logements de transit,Hommes,
+2020,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Hommes,398
+2020,4,4 : En institution,Institutions médicales,Hommes,
+2020,4,4 : En institution,Asile,Hommes,28
+2020,5,5 : Logement non-conventionnel,SHNA,Hommes,29
+2020,5,5 : Logement non-conventionnel,Occupations négociées,Hommes,305
+2020,5,5 : Logement non-conventionnel,Squats,Hommes,524
+2020,6,6 : Chez des tiers,Chez des tiers,Hommes,
+2020,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Hommes,2507
+2020,1,1 : Espace public,Espace public,X,
+2020,2,2 : Dispositifs d'urgence,Hébergement d'urgence,X,
+2020,2,2 : Dispositifs d'urgence,Plateforme citoyenne,X,
+2020,3,3 : Foyer d'hébergement,Maisons d'accueil,X,
+2020,3,3 : Foyer d'hébergement,Logements de transit,X,
+2020,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,X,
+2020,4,4 : En institution,Institutions médicales,X,
+2020,4,4 : En institution,Asile,X,
+2020,5,5 : Logement non-conventionnel,SHNA,X,
+2020,5,5 : Logement non-conventionnel,Occupations négociées,X,
+2020,5,5 : Logement non-conventionnel,Squats,X,
+2020,6,6 : Chez des tiers,Chez des tiers,X,
+2020,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,X,
+2020,1,1 : Espace public,Espace public,Indéterminé,0
+2020,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Indéterminé,0
+2020,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Indéterminé,122
+2020,3,3 : Foyer d'hébergement,Maisons d'accueil,Indéterminé,2
+2020,3,3 : Foyer d'hébergement,Logements de transit,Indéterminé,
+2020,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Indéterminé,3
+2020,4,4 : En institution,Institutions médicales,Indéterminé,
+2020,4,4 : En institution,Asile,Indéterminé,0
+2020,5,5 : Logement non-conventionnel,SHNA,Indéterminé,102
+2020,5,5 : Logement non-conventionnel,Occupations négociées,Indéterminé,536
+2020,5,5 : Logement non-conventionnel,Squats,Indéterminé,638
+2020,6,6 : Chez des tiers,Chez des tiers,Indéterminé,
+2020,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Indéterminé,763
+2020,1,1 : Espace public,Espace public,Mineurs,388
+2020,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Mineurs,0
+2020,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Mineurs,400
+2020,3,3 : Foyer d'hébergement,Maisons d'accueil,Mineurs,189
+2020,3,3 : Foyer d'hébergement,Logements de transit,Mineurs,
+2020,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Mineurs,413
+2020,4,4 : En institution,Institutions médicales,Mineurs,
+2020,4,4 : En institution,Asile,Mineurs,0
+2020,5,5 : Logement non-conventionnel,SHNA,Mineurs,20
+2020,5,5 : Logement non-conventionnel,Occupations négociées,Mineurs,80
+2020,5,5 : Logement non-conventionnel,Squats,Mineurs,120
+2020,6,6 : Chez des tiers,Chez des tiers,Mineurs,
+2020,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Mineurs,933
+2020,1,1 : Espace public,Espace public,Total,1430
+2020,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Total,498
+2020,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Total,2647
+2020,3,3 : Foyer d'hébergement,Maisons d'accueil,Total,434
+2020,3,3 : Foyer d'hébergement,Logements de transit,Total,
+2020,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Total,1140
+2020,4,4 : En institution,Institutions médicales,Total,
+2020,4,4 : En institution,Asile,Total,31
+2020,5,5 : Logement non-conventionnel,SHNA,Total,161
+2020,5,5 : Logement non-conventionnel,Occupations négociées,Total,999
+2020,5,5 : Logement non-conventionnel,Squats,Total,1495
+2020,6,6 : Chez des tiers,Chez des tiers,Total,
+2020,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Total,5313
+2022,1,1 : Espace public,Espace public,Femmes,277
+2022,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Femmes,78
+2022,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Femmes,429
+2022,3,3 : Foyer d'hébergement,Maisons d'accueil,Femmes,207
+2022,3,3 : Foyer d'hébergement,Logements de transit,Femmes,20
+2022,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Femmes,483
+2022,4,4 : En institution,Institutions médicales,Femmes,
+2022,4,4 : En institution,Asile,Femmes,33
+2022,5,5 : Logement non-conventionnel,SHNA,Femmes,76
+2022,5,5 : Logement non-conventionnel,Occupations négociées,Femmes,8
+2022,5,5 : Logement non-conventionnel,Squats,Femmes,193
+2022,6,6 : Chez des tiers,Chez des tiers,Femmes,72
+2022,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Femmes,1283
+2022,1,1 : Espace public,Espace public,Hommes,282
+2022,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Hommes,600
+2022,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Hommes,1477
+2022,3,3 : Foyer d'hébergement,Maisons d'accueil,Hommes,94
+2022,3,3 : Foyer d'hébergement,Logements de transit,Hommes,15
+2022,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Hommes,421
+2022,4,4 : En institution,Institutions médicales,Hommes,
+2022,4,4 : En institution,Asile,Hommes,118
+2022,5,5 : Logement non-conventionnel,SHNA,Hommes,482
+2022,5,5 : Logement non-conventionnel,Occupations négociées,Hommes,60
+2022,5,5 : Logement non-conventionnel,Squats,Hommes,808
+2022,6,6 : Chez des tiers,Chez des tiers,Hommes,54
+2022,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Hommes,3125
+2022,1,1 : Espace public,Espace public,X,0
+2022,2,2 : Dispositifs d'urgence,Hébergement d'urgence,X,0
+2022,2,2 : Dispositifs d'urgence,Plateforme citoyenne,X,0
+2022,3,3 : Foyer d'hébergement,Maisons d'accueil,X,0
+2022,3,3 : Foyer d'hébergement,Logements de transit,X,0
+2022,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,X,2
+2022,4,4 : En institution,Institutions médicales,X,
+2022,4,4 : En institution,Asile,X,0
+2022,5,5 : Logement non-conventionnel,SHNA,X,1
+2022,5,5 : Logement non-conventionnel,Occupations négociées,X,0
+2022,5,5 : Logement non-conventionnel,Squats,X,1
+2022,6,6 : Chez des tiers,Chez des tiers,X,0
+2022,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,X,16
+2022,1,1 : Espace public,Espace public,Indéterminé,104
+2022,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Indéterminé,0
+2022,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Indéterminé,232
+2022,3,3 : Foyer d'hébergement,Maisons d'accueil,Indéterminé,32
+2022,3,3 : Foyer d'hébergement,Logements de transit,Indéterminé,0
+2022,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Indéterminé,33
+2022,4,4 : En institution,Institutions médicales,Indéterminé,
+2022,4,4 : En institution,Asile,Indéterminé,0
+2022,5,5 : Logement non-conventionnel,SHNA,Indéterminé,515
+2022,5,5 : Logement non-conventionnel,Occupations négociées,Indéterminé,795
+2022,5,5 : Logement non-conventionnel,Squats,Indéterminé,1310
+2022,6,6 : Chez des tiers,Chez des tiers,Indéterminé,158
+2022,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Indéterminé,1733
+2022,1,1 : Espace public,Espace public,Mineurs,212
+2022,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Mineurs,40
+2022,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Mineurs,264
+2022,3,3 : Foyer d'hébergement,Maisons d'accueil,Mineurs,255
+2022,3,3 : Foyer d'hébergement,Logements de transit,Mineurs,4
+2022,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Mineurs,534
+2022,4,4 : En institution,Institutions médicales,Mineurs,
+2022,4,4 : En institution,Asile,Mineurs,4
+2022,5,5 : Logement non-conventionnel,SHNA,Mineurs,52
+2022,5,5 : Logement non-conventionnel,Occupations négociées,Mineurs,56
+2022,5,5 : Logement non-conventionnel,Squats,Mineurs,123
+2022,6,6 : Chez des tiers,Chez des tiers,Mineurs,10
+2022,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Mineurs,977
+2022,1,1 : Espace public,Espace public,Total,875
+2022,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Total,718
+2022,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Total,2402
+2022,3,3 : Foyer d'hébergement,Maisons d'accueil,Total,588
+2022,3,3 : Foyer d'hébergement,Logements de transit,Total,39
+2022,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Total,1434
+2022,4,4 : En institution,Institutions médicales,Total,
+2022,4,4 : En institution,Asile,Total,155
+2022,5,5 : Logement non-conventionnel,SHNA,Total,1126
+2022,5,5 : Logement non-conventionnel,Occupations négociées,Total,919
+2022,5,5 : Logement non-conventionnel,Squats,Total,2435
+2022,6,6 : Chez des tiers,Chez des tiers,Total,294
+2022,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Total,7134
+2024,1,1 : Espace public,Espace public,Femmes,346
+2024,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Femmes,88
+2024,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Femmes,434
+2024,3,3 : Foyer d'hébergement,Maisons d'accueil,Femmes,235
+2024,3,3 : Foyer d'hébergement,Logements de transit,Femmes,6
+2024,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Femmes,525
+2024,4,4 : En institution,Institutions médicales,Femmes,0
+2024,4,4 : En institution,Asile,Femmes,76
+2024,5,5 : Logement non-conventionnel,SHNA,Femmes,208
+2024,5,5 : Logement non-conventionnel,Occupations négociées,Femmes,110
+2024,5,5 : Logement non-conventionnel,Squats,Femmes,397
+2024,6,6 : Chez des tiers,Chez des tiers,Femmes,17
+2024,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Femmes,1991
+2024,1,1 : Espace public,Espace public,Hommes,668
+2024,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Hommes,908
+2024,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Hommes,1576
+2024,3,3 : Foyer d'hébergement,Maisons d'accueil,Hommes,210
+2024,3,3 : Foyer d'hébergement,Logements de transit,Hommes,8
+2024,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Hommes,541
+2024,4,4 : En institution,Institutions médicales,Hommes,0
+2024,4,4 : En institution,Asile,Hommes,136
+2024,5,5 : Logement non-conventionnel,SHNA,Hommes,383
+2024,5,5 : Logement non-conventionnel,Occupations négociées,Hommes,164
+2024,5,5 : Logement non-conventionnel,Squats,Hommes,881
+2024,6,6 : Chez des tiers,Chez des tiers,Hommes,24
+2024,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Hommes,4760
+2024,1,1 : Espace public,Espace public,X,1
+2024,2,2 : Dispositifs d'urgence,Hébergement d'urgence,X,0
+2024,2,2 : Dispositifs d'urgence,Plateforme citoyenne,X,1
+2024,3,3 : Foyer d'hébergement,Maisons d'accueil,X,0
+2024,3,3 : Foyer d'hébergement,Logements de transit,X,0
+2024,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,X,0
+2024,4,4 : En institution,Institutions médicales,X,0
+2024,4,4 : En institution,Asile,X,0
+2024,5,5 : Logement non-conventionnel,SHNA,X,5
+2024,5,5 : Logement non-conventionnel,Occupations négociées,X,0
+2024,5,5 : Logement non-conventionnel,Squats,X,5
+2024,6,6 : Chez des tiers,Chez des tiers,X,0
+2024,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,X,38
+2024,1,1 : Espace public,Espace public,Indéterminé,0
+2024,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Indéterminé,0
+2024,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Indéterminé,0
+2024,3,3 : Foyer d'hébergement,Maisons d'accueil,Indéterminé,14
+2024,3,3 : Foyer d'hébergement,Logements de transit,Indéterminé,0
+2024,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Indéterminé,14
+2024,4,4 : En institution,Institutions médicales,Indéterminé,17
+2024,4,4 : En institution,Asile,Indéterminé,50
+2024,5,5 : Logement non-conventionnel,SHNA,Indéterminé,626
+2024,5,5 : Logement non-conventionnel,Occupations négociées,Indéterminé,308
+2024,5,5 : Logement non-conventionnel,Squats,Indéterminé,1029
+2024,6,6 : Chez des tiers,Chez des tiers,Indéterminé,6
+2024,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Indéterminé,1310
+2024,1,1 : Espace public,Espace public,Mineurs,448
+2024,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Mineurs,76
+2024,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Mineurs,524
+2024,3,3 : Foyer d'hébergement,Maisons d'accueil,Mineurs,266
+2024,3,3 : Foyer d'hébergement,Logements de transit,Mineurs,0
+2024,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Mineurs,548
+2024,4,4 : En institution,Institutions médicales,Mineurs,94
+2024,4,4 : En institution,Asile,Mineurs,95
+2024,5,5 : Logement non-conventionnel,SHNA,Mineurs,231
+2024,5,5 : Logement non-conventionnel,Occupations négociées,Mineurs,101
+2024,5,5 : Logement non-conventionnel,Squats,Mineurs,337
+2024,6,6 : Chez des tiers,Chez des tiers,Mineurs,30
+2024,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Mineurs,1678
+2024,1,1 : Espace public,Espace public,Total,1463
+2024,2,2 : Dispositifs d'urgence,Hébergement d'urgence,Total,1072
+2024,2,2 : Dispositifs d'urgence,Plateforme citoyenne,Total,2535
+2024,3,3 : Foyer d'hébergement,Maisons d'accueil,Total,725
+2024,3,3 : Foyer d'hébergement,Logements de transit,Total,14
+2024,3,3 : Foyer d'hébergement,Dispositifs sociaux en hôtel,Total,1628
+2024,4,4 : En institution,Institutions médicales,Total,111
+2024,4,4 : En institution,Asile,Total,357
+2024,5,5 : Logement non-conventionnel,SHNA,Total,1453
+2024,5,5 : Logement non-conventionnel,Occupations négociées,Total,683
+2024,5,5 : Logement non-conventionnel,Squats,Total,2649
+2024,6,6 : Chez des tiers,Chez des tiers,Total,77
+2024,7,7 : Sous menace d'expulsion,Sous menace d'expulsion,Total,9777
