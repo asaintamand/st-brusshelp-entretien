@@ -92,6 +92,7 @@ col1, col2 = st.columns(2)
 
 # --- Plot 1 : distribution by ETHOS ---
 with col1:
+    st.write(df_year_total.dropna())
     st.subheader("Par catégorie ETHOS Light (tout public confondu)")
     fig_sun_statut = px.pie(
         df_year_total.dropna(),
