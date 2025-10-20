@@ -100,9 +100,8 @@ with col1:
         df_year_total.dropna(),
         values="value",
         path=["EL_name_general"],
-        # hover_name="EL_name_sub",
-        # hover_data="value",
-        # parents="EL_name_general",
+        hover_name="EL_name_sub",
+        hover_data="value",
         color="EL_name_general",
         color_discrete_sequence=px.colors.qualitative.Set2,
     )
