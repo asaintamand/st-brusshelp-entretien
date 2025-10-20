@@ -109,7 +109,7 @@ with col2:
     fig_sun_genre = px.sunburst(
         df_year_wo_total.dropna(subset=["value", "public"]),
         values="value",
-        path=["public"],
+        names="public",
         color="public",
         color_discrete_sequence=px.colors.qualitative.Vivid,
     )
