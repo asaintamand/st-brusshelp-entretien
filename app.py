@@ -106,11 +106,12 @@ with col1:
 # --- Plot 2 : distribution by public ---
 with col2:
     st.subheader("Par genre et âge (toute catégorie ETHOS Light confondue)")
-    fig_sun_genre = px.sunburst(
+    fig_sun_genre = px.pie(
         df_year_wo_total.dropna(subset=["value", "public"]),
         values="value",
-        names="public",
         color="public",
+        names="public",
+        hover_data="value",
         color_discrete_sequence=px.colors.qualitative.Vivid,
     )
 
