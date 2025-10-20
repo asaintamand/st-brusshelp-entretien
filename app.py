@@ -34,10 +34,15 @@ public_selection = st.selectbox(
     "Choisir le public à inclure :", public, default=list(public)
 )
 
-st.write(
-    "Les différents publics représentent les adultes selon leur genre (femmes, hommes, X, genre indéterminé lors des recensements) et les mineurs (sans distinction de genre)."
-)
-st.write("Avant 2022, le genre 'X' n'était pas repris lors des dénombrements.")
+txt_md = """
+Les différents publics représentent les adultes selon leur genre (femmes, hommes, X, genre indéterminé lors des recensements) et les mineurs (sans distinction de genre).
+
+Notes :  
+- Avant 2022, le genre 'X' n'était pas repris lors des dénombrements.
+- En 2020, une partie des personnes hébergées dans des dispositifs de crise liés à la pandémie de COVID-19 sont incluses dans la catégorie 'Dispositifs d'urgence'.
+"""
+st.markdown(txt_md)
+
 
 # Filtering data
 df_filtered = df_by_EL[df_by_EL["public"] == public_selection]
