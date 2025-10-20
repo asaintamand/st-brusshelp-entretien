@@ -93,10 +93,10 @@ col1, col2 = st.columns(2)
 # --- Plot 1 : distribution by ETHOS ---
 with col1:
     st.subheader("Par catégorie ETHOS Light (tout public confondu)")
-    fig_sun_statut = px.sunburst(
+    fig_sun_statut = px.pie(
         df_year_total.dropna(),
         values="value",
-        path=["EL_name_general"],
+        names="EL_name_general",
         # hover_name="EL_name_sub",
         # hover_data="value",
         color="EL_name_general",
