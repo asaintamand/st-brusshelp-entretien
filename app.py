@@ -58,6 +58,8 @@ fig_area.update_layout(
 
 st.plotly_chart(fig_area, use_container_width=True)
 
+st.divider()
+
 # %% Distribution plots by either ETHOS or public
 st.header("Répartition par classe ETHOS Light ou par public pour une année donnée")
 
@@ -96,18 +98,49 @@ with col2:
     fig_sun_genre = px.sunburst(
         df_year_wo_total,
         values="value",
+        names="public",
         color="public",
         color_discrete_sequence=px.colors.qualitative.Pastel,
     )
     st.plotly_chart(fig_sun_genre, use_container_width=True)
 
-# # %% Distribution plots by ETHOS and public
-# st.header("Répartition par public pour une catégorie ETHOS Light et une année donnés")
+st.divider()
 
-# ethos_classes_name = sorted(df["EL_name_general"].unique())
-# ethos_selection = st.selectbox(
-#     "Sélectionner une catégorie ETHOS Light :", ethos_classes_name
-# )
-# year_selection_v2 = st.selectbox(
-#     "Sélectionner une année :", years, index=len(years) - 1
-# )
+# %% Distribution plots by ETHOS and public
+st.header("Répartition par public pour une catégorie ETHOS Light et une année donnés")
+
+ethos_classes_name = sorted(df["EL_name_general"].unique())
+ethos_selection = st.selectbox(
+    "Sélectionner une catégorie ETHOS Light :", ethos_classes_name
+)
+year_selection_v2 = st.selectbox(
+    "Sélectionner une année :", years, index=len(years) - 1
+)
+
+df_ethos_year = (
+    df_wo_total[df_wo_total["year"] == 2008][
+        df_wo_total["EL_name_general"] == ethos_classes_name[2]
+    ]
+    .groupby("public")
+    .sum()
+    .reset_index()
+    .drop(["year", "EL_no"], axis=1)
+)
+
+# Plot combined
+fig_sun_combine = px.sunburst(
+    df_ethos_year,
+    values="value",
+    color="public",
+    names="public",
+    hover_data="value",
+    color_discrete_sequence=px.colors.qualitative.Vivid,
+    title=f"Répartition par public pour la catégorie ETHOS Light {ethos_selection} en {year_selection_v2}",
+)
+
+fig_sun_combine.update_layout(margin=dict(l=0, r=0, t=50, b=0))
+
+# Center plot
+col_left, col_center, col_right = st.columns([1, 2, 1])
+with col_center:
+    st.plotly_chart(fig_sun_combine, use_container_width=True)
