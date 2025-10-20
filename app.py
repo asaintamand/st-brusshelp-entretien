@@ -131,12 +131,17 @@ st.header("Répartition par public pour une catégorie ETHOS Light et une année
 years_v2 = sorted(df["year"].unique())
 
 ethos_classes_name = sorted(df["EL_name_general"].unique())
-ethos_selection = st.selectbox(
-    "Sélectionner une catégorie ETHOS Light :", ethos_classes_name, index=0
-)
-year_selection_v2 = st.selectbox(
-    "Choisir une année :", years_v2, index=len(years_v2) - 1
-)
+
+col3, col4 = st.columns(2)
+
+with col3:
+    ethos_selection = st.selectbox(
+        "Sélectionner une catégorie ETHOS Light :", ethos_classes_name, index=0
+    )
+with col4:
+    year_selection_v2 = st.selectbox(
+        "Choisir une année :", years_v2, index=len(years_v2) - 1
+    )
 
 df_ethos_year = (
     df_wo_total[df_wo_total["year"] == year_selection_v2][
