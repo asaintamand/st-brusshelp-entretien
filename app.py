@@ -129,7 +129,7 @@ ethos_selection = st.selectbox(
     "Sélectionner une catégorie ETHOS Light :", ethos_classes_name, index=0
 )
 year_selection_v2 = st.selectbox(
-    "Sélectionner une année :", years_v2, index=len(years_v2) - 1
+    "Choisir une année :", years_v2, index=len(years_v2) - 1
 )
 
 df_ethos_year = (
