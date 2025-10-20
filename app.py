@@ -39,7 +39,7 @@ Les différents publics représentent les adultes selon leur genre (femmes, homm
 
 Notes :  
 - Avant 2022, le genre 'X' n'était pas repris lors des dénombrements.
-- En 2020, une partie des personnes hébergées dans des dispositifs de crise liés à la pandémie de COVID-19 sont incluses dans la catégorie 'Dispositifs d'urgence'.
+- En 2020, les personnes hébergées dans des dispositifs de crise liés à la pandémie de COVID-19 sont incluses dans la catégorie 'Dispositifs d'urgence'.
 """
 st.markdown(txt_md)
 
