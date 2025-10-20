@@ -34,6 +34,11 @@ public_selection = st.selectbox(
     "Choisir le public à inclure :", public, default=list(public)
 )
 
+st.write(
+    "Les différents publics représentent les adultes selon leur genre (femmes, hommes, X, genre indéterminé lors des recensements) et les mineurs (sans distinction de genre)."
+)
+st.write("Avant 2022, le genre 'X' n'était pas repris lors des dénombrements.")
+
 # Filtering data
 df_filtered = df_by_EL[df_by_EL["public"] == public_selection]
 
