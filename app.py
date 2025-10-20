@@ -99,7 +99,7 @@ with col1:
         # hover_name="EL_name_sub",
         # hover_data="value",
         color="EL_name_general",
-        color_discrete_sequence=px.colors.qualitative.Set2,
+        # color_discrete_sequence=px.colors.qualitative.Set2,
     )
     st.plotly_chart(fig_sun_statut, use_container_width=True)
 
