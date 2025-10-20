@@ -155,12 +155,14 @@ df_ethos_year = (
     .drop(["year", "EL_no"], axis=1)
 )
 
+st.write(df_ethos_year.dropna())
+
 # Plot combined
 fig_sun_combine = px.sunburst(
     df_ethos_year.dropna(),
     values="value",
     color="public",
-    names="public",
+    path=["public"],
     hover_data="value",
     color_discrete_sequence=px.colors.qualitative.Vivid,
     title=f"Répartition par public pour la catégorie ETHOS Light {ethos_selection} en {year_selection_v2}",
