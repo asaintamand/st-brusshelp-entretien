@@ -38,6 +38,7 @@ ethos_classes_full = [
 # ethos_classes_no = [elt[12] for elt in ethos_classes_full]
 # ethos_classes_name = [elt[16:] for elt in ethos_classes_full]
 ethos_classes_ligne = [5, 6, 7, 9, 10, 11, 17, 18, 13, 14, 15, 20, 21]
+ethos_classes_ligne = [no - 1 for no in ethos_classes_ligne]
 ethos_classes_name = [
     "Espace public",
     "Dispositifs d'urgence",
