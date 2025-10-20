@@ -101,7 +101,7 @@ with col1:
         # hover_data="value",
         color="EL_name_general",
         # color_discrete_sequence=px.colors.qualitative.Set2,
-        category_orders=df_year_total.dropna().EL_name_general.unique(),
+        # category_orders=df_year_total.dropna().EL_name_general.unique(),
     )
     st.plotly_chart(fig_sun_statut, use_container_width=True)
 
