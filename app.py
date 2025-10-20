@@ -84,7 +84,9 @@ year_selection_v1 = st.selectbox(
 df_year_total = df_total[df_total["year"] == year_selection_v1]
 df_year_total.dropna(inplace=True)
 
-df_year_wo_total = df_wo_total[df_wo_total["year"] == 2008].groupby("public").sum()
+df_year_wo_total = (
+    df_wo_total[df_wo_total["year"] == year_selection_v1].groupby("public").sum()
+)
 df_year_wo_total = df_year_wo_total.reindex(
     ["Femmes", "Hommes", "X", "Indéterminé", "Mineurs"]
 ).reset_index()
@@ -95,8 +97,9 @@ col1, col2 = st.columns(2)
 with col1:
     st.subheader("Par catégorie ETHOS Light (tout public confondu)")
     fig_sun_statut = px.sunburst(
-        df_year_total,
+        df_year_total.dropna(),
         values="value",
+        names="EL_name_general",
         # hover_name="EL_name_sub",
         # hover_data="value",
         # parents="EL_name_general",
@@ -109,7 +112,7 @@ with col1:
 with col2:
     st.subheader("Par genre et âge (toute catégorie ETHOS Light confondue)")
     fig_sun_genre = px.sunburst(
-        df_year_wo_total,
+        df_year_wo_total.dropna(),
         values="value",
         names="public",
         color="public",
@@ -133,7 +136,7 @@ year_selection_v2 = st.selectbox(
 )
 
 df_ethos_year = (
-    df_wo_total[df_wo_total["year"] == 2008][
+    df_wo_total[df_wo_total["year"] == year_selection_v2][
         df_wo_total["EL_name_general"] == ethos_classes_name[2]
     ]
     .groupby("public")
@@ -144,7 +147,7 @@ df_ethos_year = (
 
 # Plot combined
 fig_sun_combine = px.sunburst(
-    df_ethos_year,
+    df_ethos_year.dropna(),
     values="value",
     color="public",
     names="public",
