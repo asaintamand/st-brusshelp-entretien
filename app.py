@@ -81,7 +81,8 @@ year_selection_v1 = st.selectbox(
     "Sélectionner une année :", years, index=len(years) - 1
 )
 
-df_year_total = df_total[df_total["year"] == year_selection_v1].dropna(inplace=True)
+df_year_total = df_total[df_total["year"] == year_selection_v1]
+df_year_total.dropna(inplace=True)
 
 df_year_wo_total = df_wo_total[df_wo_total["year"] == 2008].groupby("public").sum()
 df_year_wo_total = df_year_wo_total.reindex(
