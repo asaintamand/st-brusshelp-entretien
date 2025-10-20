@@ -91,13 +91,14 @@ col1, col2 = st.columns(2)
 
 # --- Plot 1 : distribution by ETHOS ---
 with col1:
+    st.write(df_year_total.dropna())
     st.subheader("Par catégorie ETHOS Light (tout public confondu)")
     fig_sun_statut = px.sunburst(
         df_year_total.dropna(),
         values="value",
         path=["EL_name_general"],
-        hover_name="EL_name_sub",
-        hover_data="value",
+        # hover_name="EL_name_sub",
+        # hover_data="value",
         color="EL_name_general",
         color_discrete_sequence=px.colors.qualitative.Set2,
     )
@@ -105,6 +106,7 @@ with col1:
 
 # --- Plot 2 : distribution by public ---
 with col2:
+    st.write(df_year_wo_total.dropna(subset=["value", "public"]))
     st.subheader("Par genre et âge (toute catégorie ETHOS Light confondue)")
     # fig_sun_genre = px.sunburst(
     #     df_year_wo_total.dropna(),
@@ -116,7 +118,7 @@ with col2:
     fig_sun_genre = px.sunburst(
         df_year_wo_total.dropna(subset=["value", "public"]),
         values="value",
-        names="public",
+        path=["public"],
         color="public",
         color_discrete_sequence=px.colors.qualitative.Pastel,
     )
