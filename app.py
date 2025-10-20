@@ -102,7 +102,7 @@ with col1:
         color="EL_name_general",
         # color_discrete_sequence=px.colors.qualitative.Set2,
         category_orders={
-            "EL_name_general": df_year_total.dropna().EL_name_general.unique()
+            "EL_name_general": df_year_total.dropna().EL_name_general.unique().tolist()
         },
     )
     st.plotly_chart(fig_sun_statut, use_container_width=True)
