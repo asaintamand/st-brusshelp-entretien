@@ -31,7 +31,7 @@ df_by_EL.drop("EL_no", axis=1, inplace=True)
 # Filter : public selection
 public = df["public"].unique()
 public_selection = st.selectbox(
-    "Choisir le public à inclure :", public, default=list(public)
+    "Choisir le public à inclure :", public, index=len(public) - 1
 )
 
 txt_md = """
@@ -121,7 +121,7 @@ st.header("Répartition par public pour une catégorie ETHOS Light et une année
 
 ethos_classes_name = sorted(df["EL_name_general"].unique())
 ethos_selection = st.selectbox(
-    "Sélectionner une catégorie ETHOS Light :", ethos_classes_name
+    "Sélectionner une catégorie ETHOS Light :", ethos_classes_name, index=0
 )
 year_selection_v2 = st.selectbox(
     "Sélectionner une année :", years, index=len(years) - 1
