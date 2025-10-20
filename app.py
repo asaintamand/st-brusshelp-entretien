@@ -76,9 +76,9 @@ st.divider()
 st.header("Répartition par classe ETHOS Light ou par public pour une année donnée")
 
 # Droplist to select year
-years = sorted(df["year"].unique())
+years_v1 = sorted(df["year"].unique())
 year_selection_v1 = st.selectbox(
-    "Sélectionner une année :", years, index=len(years) - 1
+    "Sélectionner une année :", years_v1, index=len(years_v1) - 1
 )
 
 df_year_total = df_total[df_total["year"] == year_selection_v1]
@@ -122,12 +122,14 @@ st.divider()
 # %% Distribution plots by ETHOS and public
 st.header("Répartition par public pour une catégorie ETHOS Light et une année donnés")
 
+years_v2 = sorted(df["year"].unique())
+
 ethos_classes_name = sorted(df["EL_name_general"].unique())
 ethos_selection = st.selectbox(
     "Sélectionner une catégorie ETHOS Light :", ethos_classes_name, index=0
 )
 year_selection_v2 = st.selectbox(
-    "Sélectionner une année :", years, index=len(years) - 1
+    "Sélectionner une année :", years_v2, index=len(years_v2) - 1
 )
 
 df_ethos_year = (
