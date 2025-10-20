@@ -83,6 +83,7 @@ year_selection_v1 = st.selectbox(
 
 df_year_total = df_total[df_total["year"] == year_selection_v1]
 df_year_total.dropna(inplace=True)
+df_year_total = df_year_total.sort_values("EL_name_general")
 
 df_year_wo_total = df_wo_total[df_wo_total["year"] == year_selection_v1]
 df_year_wo_total = df_year_wo_total.groupby("public", as_index=False).sum()
