@@ -110,16 +110,15 @@ with col1:
 
 # --- Plot 2 : distribution by public ---
 with col2:
-    st.text(" ")
-    # st.subheader("Par genre et âge (toute catégorie ETHOS Light confondue)")
-    # fig_sun_genre = px.sunburst(
-    #     df_year_wo_total.dropna(),
-    #     values="value",
-    #     names="public",
-    #     color="public",
-    #     color_discrete_sequence=px.colors.qualitative.Pastel,
-    # )
-    # st.plotly_chart(fig_sun_genre, use_container_width=True)
+    st.subheader("Par genre et âge (toute catégorie ETHOS Light confondue)")
+    fig_sun_genre = px.sunburst(
+        df_year_wo_total.dropna(),
+        values="value",
+        names="public",
+        color="public",
+        color_discrete_sequence=px.colors.qualitative.Pastel,
+    )
+    st.plotly_chart(fig_sun_genre, use_container_width=True)
 
 st.divider()
 
