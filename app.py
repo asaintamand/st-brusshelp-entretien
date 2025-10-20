@@ -159,7 +159,7 @@ fig_sun_combine = px.pie(
     names="public",
     hover_data="value",
     color_discrete_sequence=px.colors.qualitative.Vivid,
-    title=f"Répartition par public pour la catégorie ETHOS Light {ethos_selection} en {year_selection_v2}",
+    title=f"Répartition par genre et âge pour la catégorie ETHOS Light {ethos_selection} en {year_selection_v2}",
 )
 
 fig_sun_combine.update_layout(margin=dict(l=0, r=0, t=50, b=0))
