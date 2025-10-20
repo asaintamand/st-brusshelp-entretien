@@ -90,6 +90,7 @@ df_year_wo_total = df_year_wo_total.groupby("public", as_index=False).sum()
 col1, col2 = st.columns(2)
 
 # --- Plot 1 : distribution by ETHOS ---
+st.write(df_year_total.dropna().EL_name_general.unique())
 with col1:
     st.subheader("Par catégorie ETHOS Light (tout public confondu)")
     fig_sun_statut = px.pie(
