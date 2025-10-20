@@ -106,13 +106,6 @@ with col1:
 # --- Plot 2 : distribution by public ---
 with col2:
     st.subheader("Par genre et âge (toute catégorie ETHOS Light confondue)")
-    # fig_sun_genre = px.sunburst(
-    #     df_year_wo_total.dropna(),
-    #     values="value",
-    #     path=["public"],
-    #     color="public",
-    #     color_discrete_sequence=px.colors.qualitative.Pastel,
-    # )
     fig_sun_genre = px.sunburst(
         df_year_wo_total.dropna(subset=["value", "public"]),
         values="value",
@@ -155,11 +148,11 @@ df_ethos_year = (
 
 
 # Plot combined
-fig_sun_combine = px.sunburst(
+fig_sun_combine = px.pie(
     df_ethos_year.dropna(),
     values="value",
     color="public",
-    path=["public"],
+    name="public",
     hover_data="value",
     color_discrete_sequence=px.colors.qualitative.Vivid,
     title=f"Répartition par public pour la catégorie ETHOS Light {ethos_selection} en {year_selection_v2}",
